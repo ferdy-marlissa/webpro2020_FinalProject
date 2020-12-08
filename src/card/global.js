@@ -3,7 +3,7 @@ import axios from "axios"
 import "../App.css"
 import NumberFormat from "react-number-format";
 
-const CardG = () => {
+const Global = () => {
   const [confirmed, setConfirmed] = useState("");
   const [deaths, setDeaths] = useState("");
   const [recovered, setRecovered] = useState("");
@@ -42,4 +42,4 @@ const CardG = () => {
   )
  
 };
-export default CardG;
+export default Global;
