@@ -5,7 +5,7 @@ import Numberformat from 'react-number-format'
 
 
 
-const CardP = () => {
+const Provinsi = () => {
   const [provinsiData, getProvinsi] = useState([]);
   useEffect(()=>{
     axios
@@ -42,4 +42,4 @@ const CardP = () => {
     
     )
 }
-export default CardP;
+export default Provinsi;
