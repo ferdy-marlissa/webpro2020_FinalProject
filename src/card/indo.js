@@ -3,7 +3,7 @@ import axios from "axios"
 import '../App.css'
 import NumberFormat from "react-number-format";
 
-const CardI = () => {
+const Indonesia = () => {
   const [jumlahKasus, setJumlahKasus] = useState("");
   const [meninggal, setMeninggal] = useState("");
   const [sembuh, setSembuh] = useState("");
@@ -44,4 +44,4 @@ const CardI = () => {
 
   
 };
-export default CardI;
+export default Indonesia;
