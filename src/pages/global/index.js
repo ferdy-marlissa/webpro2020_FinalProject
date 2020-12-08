@@ -1,18 +1,18 @@
 import React  from 'react';
-import CardG from  '../../Card/cardG'
+import Global from  '../../card/global'
 
 
 
 
-const Global = () => {
+const global = () => {
  
 return(
   <div> 
-    <CardG/> 
+    <global/> 
     
    </div>
 
 )
   
 };
-export default Global;
+export default global;
