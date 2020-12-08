@@ -1,15 +1,15 @@
 import React from 'react';
-import CardG from  '../../Card/cardP'
+import provinsi from  '../../card/provinsi'
 
 
 
-const Provinsi = () => {
+const indo = () => {
  
 return(
   <div>
-    <CardG/>
+    <provinsi/>
   </div>
 )
   
 };
-export default Provinsi;
+export default indo;
